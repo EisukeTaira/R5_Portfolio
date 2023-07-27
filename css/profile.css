@@ -6,25 +6,32 @@
 
     body
 		{
-			justify-content: center;
+			font-family: 'メイリオ';
         }
-
-
-/*画像を中央に配置する*/
 	
 
 /*各コンテンツの設定*/
     article
 		{	
-			background-color: #999999
-			
+			text-align: center;	
+			margin-left: auto;
+			margin-right: auto;
         }
+
+	section
+		{
+			display: inline-block;
+			text-align: left;
+		}
+
 
 	figure
 		{
-			text-align: center;
-			padding: 50px;
-		}s
+			background-color: #999999;
+			text-align: center;		/*画像を中央に配置する*/
+			padding: 50px;		/*画像に対して、上下左右の余白を設ける*/
+			
+		}
     p
 		{
 			margin-top: 0;		/*<h3>と並べた時の上余白を詰める*/
