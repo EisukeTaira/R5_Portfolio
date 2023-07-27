@@ -1,13 +1,12 @@
 @charset "UTF-8";
     header
 		{
-		text-align: right;
+			text-align: right;
         }
 
     body
 		{
 			justify-content: center;
-			margin: auto;
         }
 
 
@@ -16,27 +15,30 @@
 
 /*各コンテンツの設定*/
     article
-		{
-		width:1168px;
-		margin-right: auto;
-    	margin-left: auto;
+		{	
+			background-color: #999999
+			
         }
 
+	figure
+		{
+			text-align: center;
+			padding: 50px;
+		}s
     p
 		{
-		margin-top: 0;
-		line-height: normal;
+			margin-top: 0;		/*<h3>と並べた時の上余白を詰める*/
+			line-height: normal;
 		}
 
 /*格言*/
     h2
 		{
-    	color: #a549bc;
+    		color: #a549bc;
         }
 
 /*項目見出し*/
     h3
 		{
-		font-size: 20px;
-		margin-bottom: 0;
+			margin-bottom: 0;	/*<p>と並べた時の下余白を詰める*/
     	}
