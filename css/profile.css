@@ -10,7 +10,7 @@
         }
 	
 
-/*各コンテンツの設定*/
+
     article
 		{	
 			text-align: center;	
@@ -20,7 +20,7 @@
 
 	section
 		{
-			display: inline-block;
+			display: inline-block;	/*要素を変更*/
 			text-align: left;
 		}
 
@@ -34,6 +34,7 @@
 		}
     p
 		{
+			width: 780px;
 			margin-top: 0;		/*<h3>と並べた時の上余白を詰める*/
 			line-height: normal;
 		}
@@ -42,6 +43,7 @@
     h2
 		{
     		color: #a549bc;
+			text-align: center;
         }
 
 /*項目見出し*/
