@@ -1,51 +1,59 @@
 @charset "UTF-8";
     header
 		{
-			text-align: right;
+			position: fixed
         }
 
     body
 		{
-			font-family: 'メイリオ';
+			font-family: 'メイリオ';	/*サイト内のフォント種類を指定*/
         }
 	
 
 
     article
 		{	
-			text-align: center;	
-			margin-left: auto;
-			margin-right: auto;
+			text-align: center;		/*子要素のコンテンツを中央揃えに*/
         }
 
 	section
 		{
-			display: inline-block;	/*要素を変更*/
-			text-align: left;
+			display: inline-block;	/*コンテンツ要素を変更*/
+			text-align: left;		/*コンテンツを左寄せに*/
+			margin: 20px;			/*コンテンツ外側の余白設定*/
+			padding-bottom: 20px;	/*コンテンツ内側下の余白設定*/
+			border-bottom: 1px solid #999999;	/*コンテンツを区切るための線を引く*/
 		}
 
 
 	figure
 		{
-			background-color: #999999;
-			text-align: center;		/*画像を中央に配置する*/
-			padding: 50px;		/*画像に対して、上下左右の余白を設ける*/
-			
+			background-color: #999999;		/*コンテンツの背景色を設定*/
+			text-align: center;				/*画像を中央に配置する*/
+			padding: 50px;					/*画像に対して、上下左右の余白を設ける*/
+			margin: 0;
 		}
     p
 		{
-			width: 780px;
-			margin-top: 0;		/*<h3>と並べた時の上余白を詰める*/
-			line-height: normal;
+			width: 780px;				/*1行に表示できる文字の横幅を指定*/
+			margin-top: 5px;			/*<h3>と並べた時の上余白を調整*/
+			margin-bottom: 10px;		/*次コンテンツとの余白を設ける*/
+			line-height: normal;		/*行間の調整*/
+		}
+
+/*サイト名*/
+	h1
+		{
+			font-size: 25px;
 		}
 
 /*格言*/
     h2
 		{
-    		color: #a549bc;
-			text-align: center;
-        }
-
+    		color: #a549bc;		/*文字色を指定*/
+			text-align: center;		/*文字を中央に配置*/
+		}
+	
 /*項目見出し*/
     h3
 		{
