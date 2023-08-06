@@ -1,15 +1,23 @@
 @charset "UTF-8";
     header
 		{
-			position: fixed
+			position: fixed;	/*ヘッダーが常に表示されるように固定*/
+			background-color: #a549bc;	/*背景色を指定*/
+			height: 70px;	/*高さを指定*/
+			width: 100%;	/*横幅を画面全体へ広げる*/
         }
 
     body
 		{
 			font-family: 'メイリオ';	/*サイト内のフォント種類を指定*/
-        }
-	
+			margin: 0;					/*ブラウザの上下左右の余白を消す*/
 
+        }
+
+	.top
+		{
+			padding-top: 70px;	/*ページ上のコンテンツ表示位置を、ヘッダー下になるように*/
+		}
 
     article
 		{	
@@ -18,10 +26,9 @@
 
 	section
 		{
-			display: inline-block;	/*コンテンツ要素を変更*/
-			text-align: left;		/*コンテンツを左寄せに*/
-			margin: 20px;			/*コンテンツ外側の余白設定*/
-			padding-bottom: 20px;	/*コンテンツ内側下の余白設定*/
+			display: inline-block;					/*コンテンツ要素を変更*/
+			text-align: left;						/*コンテンツを左寄せに*/
+			padding: 20px;							/*コンテンツの上下左右に余白を設定*/
 			border-bottom: 1px solid #999999;	/*コンテンツを区切るための線を引く*/
 		}
 
@@ -33,6 +40,7 @@
 			padding: 50px;					/*画像に対して、上下左右の余白を設ける*/
 			margin: 0;
 		}
+
     p
 		{
 			width: 780px;				/*1行に表示できる文字の横幅を指定*/
@@ -44,7 +52,8 @@
 /*サイト名*/
 	h1
 		{
-			font-size: 25px;
+			font-size: 25px;	/*フォントサイズ指定*/
+			margin: 20px;		/*画面ぎりぎりに表示されないよう、余白を設ける*/
 		}
 
 /*格言*/
