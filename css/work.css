@@ -1,0 +1,70 @@
+@charset "UTF-8";
+    header
+		{
+			position: fixed;	/*ヘッダーが常に表示されるように固定*/
+			background-color: #a549bc;	/*背景色を指定*/
+			height: 70px;	/*高さを指定*/
+			width: 100%;	/*横幅を画面全体へ広げる*/
+        }
+
+    body
+		{
+			font-family: 'メイリオ';	/*サイト内のフォント種類を指定*/
+			margin: 0;					/*ブラウザの上下左右の余白を消す*/
+
+        }
+
+	.top
+		{
+			padding-top: 70px;	/*ページ上のコンテンツ表示位置を、ヘッダー下になるように*/
+		}
+
+    article
+		{	
+			text-align: center;		/*子要素のコンテンツを中央揃えに*/
+        }
+
+	section
+		{
+			display: inline-block;					/*コンテンツ要素を変更*/
+			text-align: left;						/*コンテンツを左寄せに*/
+			padding: 20px;							/*コンテンツの上下左右に余白を設定*/
+			border-bottom: 1px solid #999999;	/*コンテンツを区切るための線を引く*/
+		}
+
+
+	figure
+		{
+			background-color: #999999;		/*コンテンツの背景色を設定*/
+			text-align: center;				/*画像を中央に配置する*/
+			padding: 50px;					/*画像に対して、上下左右の余白を設ける*/
+			margin: 0;
+		}
+
+    p
+		{
+			width: 780px;				/*1行に表示できる文字の横幅を指定*/
+			margin-top: 5px;			/*<h3>と並べた時の上余白を調整*/
+			margin-bottom: 10px;		/*次コンテンツとの余白を設ける*/
+			line-height: normal;		/*行間の調整*/
+		}
+
+/*サイト名*/
+	h1
+		{
+			font-size: 25px;	/*フォントサイズ指定*/
+			margin: 20px;		/*画面ぎりぎりに表示されないよう、余白を設ける*/
+		}
+
+/*格言*/
+    h2
+		{
+    		color: #a549bc;		/*文字色を指定*/
+			text-align: center;		/*文字を中央に配置*/
+		}
+	
+/*項目見出し*/
+    h3
+		{
+			margin-bottom: 0;	/*<p>と並べた時の下余白を詰める*/
+    	}
