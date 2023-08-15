@@ -30,11 +30,10 @@
 	section
 		{
 			display: inline-block;					/*コンテンツ要素を変更*/
-			text-align: center;						/*コンテンツを中央寄せに*/
+			vertical-align: center;					/*コンテンツを中央寄せに*/
 			padding: 20px;							/*コンテンツの上下左右に余白を設定*/
 			border-bottom: 1px solid #999999;	/*コンテンツを区切るための線を引く*/
 		}
-
 
 	figure
 		{
@@ -46,9 +45,9 @@
     p
 		{
 			width: 780px;				/*1行に表示できる文字の横幅を指定*/
-			margin-top: 5px;			/*<h3>と並べた時の上余白を調整*/
 			margin-bottom: 10px;		/*次コンテンツとの余白を設ける*/
 			line-height: normal;		/*行間の調整*/
+			word-wrap: break-word;
 		}
 
 /*サイト名と作品名*/
