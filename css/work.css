@@ -30,24 +30,26 @@
 	section
 		{
 			display: inline-block;					/*コンテンツ要素を変更*/
-			text-align: center;						/*コンテンツを中央寄せに*/
+			vertical-align: center;					/*コンテンツを中央寄せに*/
 			padding: 20px;							/*コンテンツの上下左右に余白を設定*/
 			border-bottom: 1px solid #999999;	/*コンテンツを区切るための線を引く*/
+			width: 1100px;
 		}
-
 
 	figure
 		{
 			text-align: center;				/*画像を中央に配置する*/
-			padding: 50px;					/*画像に対して、上下左右の余白を設ける*/
-			margin: 0;
+			padding: 30px;					/*画像に対して、上下左右の余白を設ける*/
+			margin: auto;
 		}
 
     p
 		{
+			background-color: #d9ad0d;
+			display:inline-block;
 			width: 780px;				/*1行に表示できる文字の横幅を指定*/
-			margin-top: 5px;			/*<h3>と並べた時の上余白を調整*/
-			margin-bottom: 10px;		/*次コンテンツとの余白を設ける*/
+			text-align: center;
+			margin-bottom: 5px;		/*次コンテンツとの余白を設ける*/
 			line-height: normal;		/*行間の調整*/
 		}
 
@@ -71,3 +73,9 @@
 		{
 			margin-bottom: 0;	/*<p>と並べた時の下余白を詰める*/
     	}
+
+/*最初の段落だけ*/
+	.p-center
+		{
+			margin: auto;
+		}
