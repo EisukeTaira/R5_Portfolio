@@ -8,32 +8,34 @@ header {
 
 .title {
 	margin-right: auto;
+	padding: 1rem 4rem;
 	font-size: 50px;
 	color: #fff;
-}
-   
-.menu-item {
-	list-style: none;
-	display: inline-block;
-	padding: 10px;
 }
 
 body {
 	background-color:#fff;
 }
 
+section
+{
+	text-align:center;
+}
+
 a.btn {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	width: 220px;
-	margin: 10px;
+	width: 100%;
+	max-width: 500px;
+	margin: 15px auto;
 	padding: 1rem 4rem;
 	font-weight: bold;
 	border-radius: 100vh;
 	border-bottom: 7px solid #0686b2;
 	background: #27acd9;
 	color: #fff;
+
 }
 
 #footer {
