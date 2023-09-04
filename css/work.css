@@ -1,5 +1,5 @@
 @charset "UTF-8";
-    header
+	header
 		{
 			position: fixed;	/*ヘッダーが常に表示されるように固定*/
 			background-color: #a549bc;	/*背景色を指定*/
